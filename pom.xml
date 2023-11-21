@@ -16,19 +16,7 @@
         <spotbugs.threshold>Low</spotbugs.threshold>
     </properties>
 
-    <build>
-<!-- spot bugs plugin -->
-<reporting>
-    <plugins>
-      <plugin>
-        <groupId>com.github.spotbugs</groupId>
-        <artifactId>spotbugs-maven-plugin</artifactId>
-        <version>4.8.1.0</version>
-      </plugin>
-    </plugins>
-  </reporting>
-
-             
+    <build>       
         <plugins>
             <!-- PMD plugin -->
             <plugin>
