@@ -16,28 +16,16 @@
         <spotbugs.threshold>Low</spotbugs.threshold>
     </properties>
 
-    <build>
+    <reporting>
         <plugins>
-            <!-- Other plugins... -->
-
-            <!-- SpotBugs Maven Plugin -->
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.6.2</version> <!-- Use the latest version available -->
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <effort>${spotbugs.effort}</effort>
-                    <!-- Additional configurations if needed -->
-                </configuration>
+                <version>4.8.1.0</version>
             </plugin>
         </plugins>
-    </build>
+    </reporting>
 
 </project>
+
+
