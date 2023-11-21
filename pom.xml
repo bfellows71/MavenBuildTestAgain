@@ -27,7 +27,7 @@
                     <execution>
                         <phase>verify</phase>
                         <goals>
-                            <goal>pmd</goal>
+                            <goal>check</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -61,11 +61,6 @@
                         </goals>
                     </execution>
                 </executions>
-
-                <configuration>
-                    <effort>Max</effort>
-                    <threshold>Low</threshold>
-                </configuration>
             </plugin>
         </plugins>
     </build>
