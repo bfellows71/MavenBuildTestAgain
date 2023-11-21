@@ -16,22 +16,6 @@
         <spotbugs.threshold>Low</spotbugs.threshold>
     </properties>
 
-         <dependencies>
-    <!-- PMD dependency -->
-    <dependency>
-        <groupId>net.sourceforge.pmd</groupId>
-        <artifactId>pmd-core</artifactId>
-        <version>6.41.0</version>
-    </dependency>
-
-    <!-- Checkstyle dependency -->
-    <dependency>
-        <groupId>com.puppycrawl.tools</groupId>
-        <artifactId>checkstyle</artifactId>
-        <version>8.42</version>
-    </dependency>
-</dependencies>
-
     <build>
 <!-- spot bugs plugin -->
 <reporting>
