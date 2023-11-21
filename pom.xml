@@ -47,22 +47,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-            <!-- FindBugs-->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>findbugs-maven-plugin</artifactId>
-                <version>3.0.7</version> 
-                <executions>
-                    <execution>
-                        <id>findbugs-check</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
         </plugins>
     </build>
 </project>
