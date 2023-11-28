@@ -24,7 +24,7 @@ public class Main {
             }
 
             System.out.println("The " + n + "th Fibonacci term is: " + secondTerm);
-            input.close();
+            input.close()
         }
     }
 }
